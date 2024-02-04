@@ -1,0 +1,5 @@
+.people-line:hover{
+    margin-right: 10px !important;
+    color: goldenrod !important;
+    cursor:pointer !important;
+}

@@ -1,0 +1,36 @@
+{
+    "name": "one-percent-todo-list-backend",
+    "version": "1.0.0",
+    "description": "a todolist which will help you to improve",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "npx nodemon ./app"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "web-vitals": "^2.1.4",
+      "bcrypt": "^5.1.0",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "email-validator": "^2.0.4",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0",
+      "mongoose": "^6.8.4",
+      "nodemon": "^2.0.20"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+  

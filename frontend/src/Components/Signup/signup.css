@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+form.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+form.signup h1 {
+    align-self: center;
+}
+
+form.signup input {
+    display: block;
+    padding: 4px 6px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    width: 24%;
+    border-style: inset;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(216, 224, 216);
+}
+
+.ql-snow .ql-editor img {
+    width: 100%;
+}
+
+
+input:focus {
+    background-color: #c2c2ad57;
+}
+
+form.signup .signupBtn {
+    width: 25%;
+    border: 1px solid black;
+    background-color: rgb(5, 216, 110) !important;
+}
+
+button:hover {
+    color: white;
+}
